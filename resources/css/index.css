@@ -1,0 +1,76 @@
+.menu-bar {
+  margin: 0 auto;
+  position: relative;
+  width: 59vmin;
+  border: 0.5vmin solid black;
+  padding: 0.5vmin;
+  text-align: center;
+}
+.grid {
+  margin: 0 auto;
+  width: 60vmin;
+  height: 70vmin;
+  background: gray;
+  position: relative;
+  border: 0.5vmin solid black;
+
+}
+.row {
+  display: flex;
+  width: 100%;
+}
+.plate-row {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.box {
+  background: tomato;
+  height: 2vmin;
+  width: 2vmin;
+  border-radius: 5px;
+  border: 1vmin double black;
+}
+.hidden {
+  visibility: hidden;
+}
+.plate {
+  background: blue;
+  color: white;
+  height: 2.5vmin;
+  width: 10vmin;
+  border: 0.5vmin solid black;
+  border-radius: 50px;
+  position: absolute;
+  bottom: 0;
+  left: 24.5vmin;
+}
+.ball {
+  width: 1.5vmin;
+  height: 1.5vmin;
+  border-radius: 50%;
+  background-color: green;
+  position: absolute;
+  border: 0.25vmin solid black;
+  bottom: 3.5vmin;
+  left: 29vmin;
+}
+/*  animation-name: ball-up;
+  animation-duration: 1.5s;
+  animation-timing-function: linear;
+}
+
+@keyframes ball-up {
+  0% {
+    bottom: 3.5vmin;
+  }
+  100% {
+    bottom: 55.5vmin;
+  }
+}*/
+
+
+
+
+

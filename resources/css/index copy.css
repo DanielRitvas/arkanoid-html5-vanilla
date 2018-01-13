@@ -1,0 +1,70 @@
+body {
+  margin: 20px;
+  height: 90vh;
+}
+
+.grid {
+  margin: 0 auto;
+  width: 80vw;
+  max-width: 60vh;
+  height: 60vw;
+  max-height: 90vh;
+  font-size: 1rem;
+  background: gray;
+  position: relative;
+}
+.row {
+  display: flex;
+}
+.plate-row {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.box {
+  background: tomato;
+  margin: 1px;
+  color: white;
+  border-radius: 5px;
+  border: 1px;
+  font-weight: bold;
+  flex: 1 0 auto;
+}
+.box:after {
+  content: "";
+  float:left;
+  display: block;
+  padding-top: 100%;
+}
+.plate {
+  background: blue;
+  margin: 1px;
+  color: white;
+  height: 3.2vh;
+  width: 13vh;
+  border-radius: 50px;
+}
+.ball {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: green;
+  position: absolute;
+  bottom: 60%;
+}
+
+
+
+
+
+.box .inner {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
